@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sayakerjadotcom">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".layout2"/>
+        <activity android:name=".layout_daftar"/>
+        <activity android:name=".layout_pilih"/>
+        <activity android:name=".layout_biodata"/>
+        <activity android:name=".layout_home_lowongan"/>
+        <activity android:name=".layout_home_pelamar"/>
+        <activity android:name=".layout_pelamar_resume"/>
+        <activity android:name=".layout_lowongan_sukses"/>
+        <activity android:name=".layout_pelamar_sukses"/>
+        <activity android:name=".layout_detail_lowongan"/>
+        <activity android:name=".layout_pelamar_lowongan"/>
+        <activity android:name=".layout_detail_pelamar"/>
+        <activity android:name=".layout_detail_job"/>
+        <activity android:name=".layout_notif_rekrut"/>
+
+    </application>
+
+</manifest>

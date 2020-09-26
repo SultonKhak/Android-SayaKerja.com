@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:id="@+id/gridLayout11"
+        android:layout_width="411dp"
+        android:layout_height="77dp"
+        android:background="#157FFB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <GridLayout
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0">
+
+            <Button
+                android:id="@+id/pilihakun"
+                android:layout_width="37dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:background="@drawable/baseline_menu_1">
+            </Button>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="247dp"
+            android:layout_height="27dp"
+            android:layout_row="0"
+            android:layout_column="2">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textColor="@android:color/white"
+                android:textSize="24dp"
+                android:textStyle="bold"></TextView>
+        </GridLayout>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="422dp"
+        android:layout_height="34dp"
+        android:background="#157FFB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135">
+
+        <TextView
+            android:layout_width="301dp"
+            android:layout_height="42dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:background="#157FFB"
+            android:text="Daftar Lowongan"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:textStyle="bold">
+        </TextView>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="418dp"
+        android:layout_height="102dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.259">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/sinestesia_8">
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="279dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="2">
+
+            <Button
+                android:id="@+id/adminpenginapan"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:background="@android:color/white"
+                android:text="Admin Penginapan"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_row="1"
+                android:layout_column="0"
+                android:text="> Tebet, Jakarta Selatan"
+                android:textColor="@android:color/black"></TextView>
+
+            <TextView
+                android:layout_row="2"
+                android:layout_column="0"
+                android:text="Rp. 3.000.000"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+        </GridLayout>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="414dp"
+        android:layout_height="103dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
+
+        <GridLayout
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/sinestesia1"></GridLayout>
+
+        <GridLayout
+            android:layout_width="276dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="2">
+
+            <Button
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:background="@android:color/white"
+                android:text="Satpam Komplek"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_row="1"
+                android:layout_column="0"
+                android:text="> Kalibata, Jakarta Selatan"
+                android:textColor="@android:color/black"></TextView>
+
+            <TextView
+                android:layout_row="2"
+                android:layout_column="0"
+                android:text="Rp. 3.400.000"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+        </GridLayout>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="412dp"
+        android:layout_height="99dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/sinestesia_4"></GridLayout>
+
+        <GridLayout
+            android:layout_width="277dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="2">
+
+            <Button
+                android:layout_width="238dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:background="@android:color/white"
+                android:text="Desain Grafis"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_row="1"
+                android:layout_column="0"
+                android:text="> Duren Sawit, Jakarta Timur"
+                android:textColor="@android:color/black"></TextView>
+
+            <TextView
+                android:layout_row="2"
+                android:layout_column="0"
+                android:text="Rp. 3.700.000"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+        </GridLayout>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="415dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.968">
+
+        <GridLayout
+            android:layout_width="123dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/sinestesia_5">
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="2">
+
+            <Button
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:background="@android:color/white"
+                android:text="Photografer"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_row="1"
+                android:layout_column="0"
+                android:text="> Kebon Jeruk, Jakarta Barat"
+                android:textColor="@android:color/black"></TextView>
+
+            <TextView
+                android:layout_row="2"
+                android:layout_column="0"
+                android:text="Rp. 3.500.000"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+        </GridLayout>
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="413dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:background="#9577CB">
+
+        <TextView
+            android:layout_width="392dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="Pelamar"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:background="#9577CB"/>
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout5"
+        android:layout_width="390dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101">
+
+        <GridLayout
+            android:layout_width="104dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:background="@drawable/michael_frattaroli_234665_unsplash">
+            </ImageView>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="2">
+
+            <Button
+                android:id="@+id/bambangputra"
+                android:layout_width="201dp"
+                android:layout_height="37dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:background="@android:color/white"
+                android:text="Bambang Putra"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_row="1"
+                android:layout_column="0"
+                android:text="> Tebet, Jakarta Selatan"
+                android:textColor="@android:color/black">
+            </TextView>
+
+            <TextView
+                android:layout_row="2"
+                android:layout_column="0"
+                android:text="Laki laki / 24"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+        </GridLayout>
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout7"
+        android:layout_width="390dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27">
+
+        <GridLayout
+            android:layout_width="104dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:background="@drawable/michael_dam_258165_unsplash">
+            </ImageView>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="2">
+
+            <Button
+                android:id="@+id/salsabilaputri"
+                android:layout_width="201dp"
+                android:layout_height="37dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:background="@android:color/white"
+                android:text="Salsabila Putri"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_row="1"
+                android:layout_column="0"
+                android:text="> Kalibata, Jakarta Selatan"
+                android:textColor="@android:color/black">
+            </TextView>
+
+            <TextView
+                android:layout_row="2"
+                android:layout_column="0"
+                android:text="Perempuan / 21"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+        </GridLayout>
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout6"
+        android:layout_width="390dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442">
+
+        <GridLayout
+            android:layout_width="104dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:background="@drawable/johm_kan_1">
+            </ImageView>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="2">
+
+            <Button
+                android:id="@+id/salmanfarizi"
+                android:layout_width="201dp"
+                android:layout_height="37dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:background="@android:color/white"
+                android:text="Salman Farizi"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_row="1"
+                android:layout_column="0"
+                android:text="> Duren Sawit, Jakarta Timur"
+                android:textColor="@android:color/black">
+            </TextView>
+
+            <TextView
+                android:layout_row="2"
+                android:layout_column="0"
+                android:text="Laki laki / 22"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+        </GridLayout>
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout8"
+        android:layout_width="390dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.611">
+
+        <GridLayout
+            android:layout_width="104dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:background="@drawable/sadiya_somayea_1233414_unsplash">
+            </ImageView>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="2">
+
+            <Button
+                android:id="@+id/dandisetiawan"
+                android:layout_width="201dp"
+                android:layout_height="37dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:background="@android:color/white"
+                android:text="Dandi setiawan"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_row="1"
+                android:layout_column="0"
+                android:text="> Kuningan, Jakarta Selatan"
+                android:textColor="@android:color/black">
+            </TextView>
+
+            <TextView
+                android:layout_row="2"
+                android:layout_column="0"
+                android:text="Laki laki / 24"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+        </GridLayout>
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout10"
+        android:layout_width="390dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.781">
+
+        <GridLayout
+            android:layout_width="104dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:background="@drawable/juniar_baresi_803339_unsplash">
+            </ImageView>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="2">
+
+            <Button
+                android:id="@+id/mariaulfa"
+                android:layout_width="201dp"
+                android:layout_height="37dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:background="@android:color/white"
+                android:text="Maria Ulfa"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_row="1"
+                android:layout_column="0"
+                android:text="> Kebon Jeruk, Jakarta Barat"
+                android:textColor="@android:color/black">
+            </TextView>
+
+            <TextView
+                android:layout_row="2"
+                android:layout_column="0"
+                android:text="Perempuan / 25"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+        </GridLayout>
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout9"
+        android:layout_width="390dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.969">
+
+        <GridLayout
+            android:layout_width="104dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:background="@drawable/naim_ahmed_1502230_unsplash">
+            </ImageView>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="2">
+
+            <Button
+                android:id="@+id/riduansyahmatin"
+                android:layout_width="201dp"
+                android:layout_height="37dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:background="@android:color/white"
+                android:text="Riduansyah Matin"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_row="1"
+                android:layout_column="0"
+                android:text="> Cengkareng, Jakarta Barat"
+                android:textColor="@android:color/black">
+            </TextView>
+
+            <TextView
+                android:layout_row="2"
+                android:layout_column="0"
+                android:text="Laki laki / 28"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+        </GridLayout>
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
